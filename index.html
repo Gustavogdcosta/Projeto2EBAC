@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista Telefonica</title>
+    <link rel="stylesheet" href="./main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+<body>
+    <div class="container">
+        <header>
+            <h1>Registro de Contatos Telefônicos EBAC (Região Sudeste)</h1>
+        </header>
+        <section>
+            <div>
+                <form id="Entrada-info">
+                    <input type="text"  id="nomedocontato" placeholder="Digite o nome do contato" required>
+                    <input type="number" id="codarea" placeholder="DDD = (0xx)" min="0" max="99" required>
+                    <input type="number" id="telefone-num" placeholder="Telefone = xxxxx-xxxx" required> 
+                    <button type="submit"> Adicionar </button>
+                </form>
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>
+                                Nome do contato
+                            </th>
+                            <th>
+                                DDD
+                            </th>
+                            <th>
+                                Telefone
+                            </th>
+                            <th>
+                                Região
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                            <td>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <Tfoot>
+                        <tr>
+                            <td>
+                                Quantidade de Contatos
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>
+                                0 Contato(os)
+                            </td>
+                        </tr>
+                    </Tfoot>
+                </table>
+            </div>
+        </section>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

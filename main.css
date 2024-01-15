@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(194, 192, 192, 0.575);
+}
+
+body {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    font-weight: bolder;
+}
+
+#Entrada-info{
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 12px;
+}
+form input {
+    margin-right: 35px;
+    background-color: #FFF;
+    height: 40px;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+#nomedocontato {
+    width: 300px;
+}
+
+#codarea {
+    width: 120px;
+}
+
+#telefone-num {
+    width: 200px;
+}
+
+button{
+    background-color: rgb(19, 117, 40);
+    color: white;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    font-size: 16px;
+    margin-left: 40px;
+    border: 2px solid #000;
+}
+
+button:hover {
+    background-color: rgb(19, 117, 40, 0.7);
+    cursor:pointer ;
+}
+
+table {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+table th{
+    padding: 10px;
+    border-bottom: 4px solid #000;
+    font-size: 20px;
+}
+
+table td {
+    padding: 10px;
+    font-size: 16px; 
+    font-weight: lighter;
+
+
+}
+
+table tbody td{
+    border-bottom: 2px solid #363636;
+}
+
+table tfoot td{
+    border-bottom: 4px solid #000;
+    border-top: 4px solid #000;
+    max-width: 960px;
+    justify-content: space-between;
+    
+    }
